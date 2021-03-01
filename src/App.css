@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Finger+Paint&family=Pompiere&family=Ranga&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.siteContainer{
+  display:flex;
+  flex-flow: row nowrap;}
+.spotlightContainer{
+  width: 60%;
+  /* display: flex;
+  flex-flow: row nowrap; */
+}
+.playerContainer{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.headerContainer{
+  width:40%;
+}
+.rosterContainer{
+  display:flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+.rosterMain{
+display:flex;
+flex-flow: row nowrap;
+
+}
+.table{
+  margin: 5px;
+  text-align: center;
+}
+
+.card{
+  width: 250px;
+  max-width: 250px;
+  height: 100px;
+}
+.jumbotron{
+  text-align: center;
+}
+.spotlightBox0{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  
+}
+h4{
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
