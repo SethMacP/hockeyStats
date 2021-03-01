@@ -23,9 +23,9 @@ function App() {
 
 return (
 	<Router>
-		<Route exact path="/" component={LandingPage} />
-		<Route exact path="/mainPage" component={MainPage}/>
-		<Route exact path="/schedule" component={Schedule}/>
+		<Route exact path="/" component={MainPage} />
+		{/* <Route exact path="/mainPage" component={MainPage}/>
+		<Route exact path="/schedule" component={Schedule}/> */}
 
 			
 
