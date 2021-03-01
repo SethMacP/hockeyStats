@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+/* Schedule CSS */
+.container{
+    font-size: medium;
+    width: 100%;
+    text-align: center;
+    
+}
+.gameHolder{
+    
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-flow: column nowrap;
+    border: 1px solid black;
+    width: 300px;
+    font-family: 'Forum', cursive;
+    font-size: 120%;
+    margin: 10px; 
+    font-family: 'Ranga', cursive;
+  }
+  .teamsHolder{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+  .teamHolder{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    width: 80%;
+    /* background-color: red; */
+    
+  }
+  .detailHolder{
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+ .table-bordered{
+   padding: 0px !important; 
+   
+ }
+ .table td, .table th{
+     padding: 0px !important;
+ }
+tbody{
+  margin-top: 10px;
+  /* line-height: 3.0 ; */
+}
+.table{
+  /* font-family: 'Ranga', cursive; */
+  font-family: 'Baskervville', serif;
+  font-weight: lighter;
+}
+th{
+  font-weight: normal;
+}

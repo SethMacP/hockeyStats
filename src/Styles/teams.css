@@ -1,0 +1,18 @@
+.teamsContainer{
+    display:flex;
+    flex-flow: column wrap;
+    width: 100%;
+    /* justify-content: space-between; */
+  }
+.teamsMain{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.teamButton{
+    width: 157px;
+    font-size: small;
+    padding: 2.5px;
+    margin: 2.5px;
+}
+
