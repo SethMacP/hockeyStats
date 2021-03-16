@@ -4,17 +4,12 @@ import Roster from './Roster'
 import Teams from './Teams'
 import Schedule from './Schedule'
 import {
-	Collapse,
 	Navbar,
 	NavbarToggler,
 	NavbarBrand,
 	Nav,
 	NavItem,
 	NavLink,
-	UncontrolledDropdown,
-	DropdownToggle,
-	DropdownMenu,
-	DropdownItem,
 	NavbarText
   } from 'reactstrap';
 
@@ -44,7 +39,7 @@ export const MainPage = () => {
 		<div className = "siteContainer">
 			<div className = "spotlightContainer">
 				<Schedule/>
-				<Spotlight />
+				
 			<div className = "rosterContainer">
 				
 				
@@ -52,6 +47,7 @@ export const MainPage = () => {
 				</div>
 			<div className = "headerContainer">
 			<Teams />
+            <Spotlight />
 			<Roster />
 			</div> 
 		</div>

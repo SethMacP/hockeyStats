@@ -11,7 +11,7 @@ export const Schedule = ({schedule,getTodaySchedule}) => {
     useEffect(()=>{
         getTodaySchedule();
         
-    },[])
+    },[Schedule])
 
 
     const formatTime = (gameString) => {

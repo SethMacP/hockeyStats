@@ -1,9 +1,9 @@
 import './App.css';
-import React, { useEffect } from 'react'
+import React from 'react'
 // import {connect} from 'react-redux'
-import Roster from './components/Roster'
-import Teams from './components/Teams'
-import Spotlight from './components/Spotlight'
+// import Roster from './components/Roster'
+// import Teams from './components/Teams'
+// import Spotlight from './components/Spotlight'
 import MainPage from './components/MainPage'
 import LandingPage from './components/LandingPage'
 import Schedule from './components/Schedule'

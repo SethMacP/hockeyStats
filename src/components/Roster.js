@@ -12,12 +12,12 @@ const Roster = ({isLoading, error, roster, spotlight, getRoster, activateSpotlig
     useEffect(()=>{
         getRoster(54);
         
-    },[])
+    },[Roster])
 
     // useEffect(() => {
     //     window.scrollTo(0, 0)
     //   }, [{activateSpotlight}])
-console.log('spotlight: ',spotlight)
+// console.log('spotlight: ',spotlight)
 
 
     return (
@@ -33,9 +33,9 @@ console.log('spotlight: ',spotlight)
                     <thead>
                         <tr>
                         <th>Pos.</th>
-                        <th>Name</th>
-                        {/* <th>Position</th> */}
                         <th>Jersey #</th>
+                        {/* <th>Position</th> */}
+                        <th>Name</th>
                         <th>Spotlight</th>
                         </tr>
                     </thead>
